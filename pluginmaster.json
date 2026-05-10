@@ -1,0 +1,16 @@
+[
+  {
+    "Author": "Tim",
+    "Name": "ToD Helper",
+    "InternalName": "ToDHelperPlugin",
+    "AssemblyVersion": "0.0.0.2",
+    "Description": "Ein Hilfs-Plugin zum Management von Truth or Dare Runden.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/DEIN_GITHUB_NAME/TomokPlugins",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/DEIN_GITHUB_NAME/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/DEIN_GITHUB_NAME/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/DEIN_GITHUB_NAME/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip"
+  }
+]
