@@ -3,14 +3,15 @@
     "Author": "Tomok2404",
     "Name": "ToD Helper",
     "InternalName": "ToDHelperPlugin",
-    "AssemblyVersion": "0.0.0.2",
+    "AssemblyVersion": "0.0.0.3",
     "Description": "A Plugin to help host Truth or Dare games in FFXIV",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tomok2404/TomokPlugins",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip"
   },
   {
     "Author": "Tomok2404",
@@ -22,8 +23,8 @@
     "RepoUrl": "https://github.com/Tomok2404/PenumbraPreviewManager",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/v.1.0.0.0/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/v.1.0.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/v.1.0.0.0/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/latest.zip"
   }
 ]
