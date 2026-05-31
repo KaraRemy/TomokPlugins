@@ -22,8 +22,8 @@
     "RepoUrl": "https://github.com/Tomok2404/PenumbraPreviewManager",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/PenumbraPreviewManager/bin/x64/Release/v.1.0.0.0/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/PenumbraPreviewManager/bin/x64/Release/v.1.0.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/PenumbraPreviewManager/bin/x64/Release/v.1.0.0.0/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/v.1.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/v.1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/v.1.0.0.0/latest.zip"
   }
 ]
