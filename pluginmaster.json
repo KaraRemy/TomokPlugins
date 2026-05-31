@@ -11,6 +11,19 @@
     "DownloadCount": 0,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/0.0.0.2/latest.zip"
+  },
+  {
+    "Author": "Tomok2404",
+    "Name": "Penumbra Preview Manager",
+    "InternalName": "PenumbraPreviewManager",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "A premium companion plugin that enables native 16:9 preview images, scaling adjustability, and easy image grabbing directly inside your Penumbra mod window.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Tomok2404/PenumbraPreviewManager",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/PenumbraPreviewManager/bin/x64/Release/v.1.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/PenumbraPreviewManager/bin/x64/Release/v.1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/PenumbraPreviewManager/main/PenumbraPreviewManager/bin/x64/Release/v.1.0.0.0/latest.zip"
   }
 ]
