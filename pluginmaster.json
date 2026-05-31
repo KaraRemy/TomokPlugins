@@ -18,13 +18,21 @@
     "Name": "Penumbra Preview Manager",
     "InternalName": "PenumbraPreviewManager",
     "AssemblyVersion": "1.0.0.0",
-    "Description": "A premium companion plugin that enables native 16:9 preview images, scaling adjustability, and easy image grabbing directly inside your Penumbra mod window.",
+    "Description": "A helper tool to easily attach local, XIVModArchive, or direct URL preview/cover images to your Penumbra mods. Also supports local tags to easily filter mods that have preview/cover images inside Penumbra.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tomok2404/PenumbraPreviewManager",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip"
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
+    "Punchline": "Manage and grab preview/cover images for local Penumbra mods.",
+    "Tags": [
+      "penumbra",
+      "preview",
+      "image",
+      "manager",
+      "xivmodarchive"
+    ]
   }
 ]
