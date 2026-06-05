@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.2] - 2026-06-05
+
+### Fixed
+- **Radio Button Option Previews**: Detoured native `igRadioButton_Bool` and `igRadioButton_IntPtr` calls from `cimgui.dll` to support mod option previews when a settings group has exactly 2 options (which Penumbra renders as radio buttons instead of a dropdown).
+
+---
+
+## [1.2.0.1] - 2026-06-05
+
+### Added
+- **In-Game Discord Support Link**: Integrated a direct "Join Support Discord" button in the Settings window.
+- **Support Documentation**: Added a dedicated Support & Community section to the plugin's `README.md`.
+
+---
+
 ## [1.2.0.0] - 2026-06-05
 
 ### Added
