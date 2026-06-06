@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.3] - 2026-06-06
+
+### Added
+- **Selected Option Caching**: Remembers selected settings group and option combinations per mod within the current game session, preventing resetting when navigating between mods.
+
+### Fixed
+- **Dalamud Texture Caching (Cache-Busting)**: Redirected temporary cache-busted copies of images to a central system temp directory to resolve native Dalamud texture cache staleness upon crop configuration updates.
+- **Mod Directory Preservation**: Added background sweeps that automatically clean up legacy `.ppm_cache_*` files inside mod folders, keeping directory structures 100% clean.
+- **Unified Preview Zoom**: Changed the z-zoom key gesture to Middle-Click (holding mouse scroll wheel) for all previews (main mod cards and option icons) to avoid layout conflicts with Penumbra's checkbox right-click context menus.
+
+---
+
 ## [1.2.0.2] - 2026-06-05
 
 ### Fixed
