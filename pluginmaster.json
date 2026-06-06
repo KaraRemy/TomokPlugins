@@ -35,5 +35,25 @@
       "xivmodarchive"
     ],
     "IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/icon.png"
+  },
+  {
+    "Author": "Tomok2404",
+    "Name": "FF Feud",
+    "InternalName": "FFFeudPlugin",
+    "AssemblyVersion": "0.0.0.2",
+    "Description": "Allows hosting custom Family Feud games with point tracking and chat output.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Tomok2404/TomokPlugins",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/FFFeudPlugin/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/FFFeudPlugin/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/FFFeudPlugin/latest.zip",
+    "Punchline": "Family Feud host helper for FFXIV.",
+    "Tags": [
+      "minigame",
+      "social",
+      "event"
+    ]
   }
 ]
