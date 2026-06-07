@@ -38,6 +38,28 @@
   },
   {
     "Author": "Tomok2404",
+    "Name": "Glamourer Preview Manager",
+    "InternalName": "GlamourerPreviewManager",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "A helper tool to easily attach local, XIVModArchive, direct URL preview/cover images, or take cropped screenshots of your characters to attach to your Glamourer designs.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Tomok2404/GlamourerPreviewManager",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
+    "Punchline": "Manage and grab preview/cover images for local Glamourer designs.",
+    "Tags": [
+      "glamourer",
+      "preview",
+      "image",
+      "manager",
+      "design"
+    ]
+  },
+  {
+    "Author": "Tomok2404",
     "Name": "FF Feud",
     "InternalName": "FFFeudPlugin",
     "AssemblyVersion": "0.0.0.2",
