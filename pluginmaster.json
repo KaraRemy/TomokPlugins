@@ -56,7 +56,8 @@
       "image",
       "manager",
       "design"
-    ]
+    ],
+	"IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/refs/heads/main/GlamourerPreviewManager/icon.png"
   },
   {
     "Author": "Tomok2404",
