@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.4] - 2026-06-08
+
+### Fixed
+- **GPose Visibility**: Disabled automatic hiding of the Preview Manager UI during GPose, allowing players to view mod previews while in photo mode.
+
+---
+
 ## [1.2.0.3] - 2026-06-06
 
 ### Added
