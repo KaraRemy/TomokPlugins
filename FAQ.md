@@ -10,7 +10,7 @@ This FAQ covers common questions, performance guidelines, and technical details 
 The developers of Penumbra and Glamourer have a strict design philosophy focused on keeping the core tools high-performance, lightweight, and database-centric. Adding image rendering engines, clipboard monitors, screenshot crop overlays, and custom UI components is considered out-of-scope for the core modding database. 
 
 They officially recommend using community-made companion plugins for these features. You can read the official discussion and reasoning in the **Penumbra Discord**:
-https://discord.gg/PvxW4mXaWp](https://discord.com/channels/884363610640498698/1061229753794826241
+https://discord.com/channels/884363610640498698/1061229753794826241
 
 ---
 
