@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.6] - 2026-06-09
+
+### Fixed
+- **Prefix Directory Recognition**: Resolved a folder-scanning bug where mod directories starting with a dot (`.`) or an underscore (`_`) were skipped. Added a targeted blacklist for IDE/VCS directories (like `.git`, `.github`, `.vs`, `.vscode`, `.idea`, and `__MACOSX`) to safely support sorting suffixes and folder names like `.HS`.
+
+---
+
 ## [1.2.0.5] - 2026-06-09
 
 ### Added
