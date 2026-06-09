@@ -2,6 +2,8 @@
 
 This is a custom plugin repository for Dalamud.
 
+This repository contains [PenumbraPreviewManager](https://github.com/Tomok2404/PenumbraPreviewManager) and [GlamourerPreviewManager](https://github.com/Tomok2404/GlamourerPreviewManager)
+
 ## How to use
 1. Open Dalamud Settings (`/xlsettings`).
 2. Go to the "Experimental" tab.
