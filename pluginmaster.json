@@ -17,7 +17,7 @@
     "Author": "Tomok2404",
     "Name": "Penumbra Preview Manager",
     "InternalName": "PenumbraPreviewManager",
-    "AssemblyVersion": "1.2.0.4",
+    "AssemblyVersion": "1.2.0.5",
     "Description": "A helper tool to easily attach local, XIVModArchive, or direct URL preview/cover images to your Penumbra mods. Also supports local tags to easily filter mods that have preview/cover images inside Penumbra.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tomok2404/PenumbraPreviewManager",
@@ -57,7 +57,7 @@
       "manager",
       "design"
     ],
-	"IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/refs/heads/main/GlamourerPreviewManager/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/refs/heads/main/GlamourerPreviewManager/icon.png"
   },
   {
     "Author": "Tomok2404",

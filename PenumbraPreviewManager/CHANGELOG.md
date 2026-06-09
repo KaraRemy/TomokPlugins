@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.5] - 2026-06-09
+
+### Added
+- **Manual Heliosphere Override**: Added a configuration checkbox `"Force PPM previews for Heliosphere mods"` under the settings window to manually force drawing preview images in PPM, with a warning tooltip explaining potential double previews if the Heliosphere plugin is running concurrently.
+
+### Changed
+- **Dynamic Heliosphere Detection**: Switched from checking only for a `heliosphere.json` file inside mod folders to checking if the Heliosphere plugin is *actually* active and loaded (via reflection and command checks), resolving issues where users downloaded mods from Heliosphere but did not have the plugin loaded, which caused preview images to not display.
+- **Settings Layout Reorganization**: Restructured the settings layout, grouping synchronization and Heliosphere options under a new `"Integration Options"` category header and separator for better visibility, and enlarged the configuration window height to prevent scrollbar clutter.
+
+---
+
 ## [1.2.0.4] - 2026-06-08
 
 ### Fixed
