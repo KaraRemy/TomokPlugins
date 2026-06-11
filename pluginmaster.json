@@ -1,17 +1,23 @@
 [
   {
     "Author": "Tomok2404",
-    "Name": "ToD Helper",
+    "Name": "ToDHelper",
     "InternalName": "ToDHelperPlugin",
-    "AssemblyVersion": "0.0.0.3",
-    "Description": "A Plugin to help host Truth or Dare games in FFXIV",
+    "AssemblyVersion": "0.0.0.4",
+    "Description": "Helps you manage and host Truth or Dare games.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tomok2404/TomokPlugins",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip"
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
+    "Punchline": "Truth or Dare Helper for FFXIV.",
+    "Tags": [
+      "tod",
+      "minigame",
+      "social"
+    ]
   },
   {
     "Author": "Tomok2404",
