@@ -17,7 +17,8 @@
       "tod",
       "minigame",
       "social"
-    ]
+    ],
+    "IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/icon.png"
   },
   {
     "Author": "Tomok2404",
