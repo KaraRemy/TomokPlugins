@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.1.1] - 2026-06-12
+
+### Changed
+- **Design Resolution Cache**: Implemented O(1) Guid and case-insensitive Name lookup dictionaries (`DesignsById`/`DesignsByName`) to eliminate linear sweeps through the designs list on the UI thread.
+- **Window Stack Check Optimization**: Cached Glamourer's window state checks, re-evaluating only on window boundary changes to completely avoid linear stack checks inside hooked ImGui button, tree node, and selectable detours.
+- **Busted Texture Path Resolver**: Added temp-based cache-busting image copy caching to force Dalamud's texture wrapper to reload updated screenshot and clipboard preview images instantly.
+
+---
+
 ## [1.0.1.0] - 2026-06-10
 
 ### Fixed

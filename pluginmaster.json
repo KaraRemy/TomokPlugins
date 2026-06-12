@@ -47,7 +47,7 @@
     "Author": "Tomok2404",
     "Name": "Glamourer Preview Manager",
     "InternalName": "GlamourerPreviewManager",
-    "AssemblyVersion": "1.0.1.0",
+    "AssemblyVersion": "1.0.1.1",
     "Description": "A helper tool to easily attach local, XIVModArchive, direct URL preview/cover images, or take cropped screenshots of your characters to attach to your Glamourer designs.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tomok2404/GlamourerPreviewManager",
