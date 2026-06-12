@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.7] - 2026-06-12
+
+### Changed
+- **Hot-Path Performance Cache**: Added multi-tiered caching for option manifests (`ppm.json`), physical file checks (`File.Exists`), and cache-busted texture paths to eliminate all hot-path disk reads.
+- **Active Mod Settings Caching**: Pre-calculated option-to-group mappings and cached active mod details when drawing, eliminating nested linear loops and IPC calls.
+- **Unassigned Preview Cache**: Cached unassigned images scanning in the main UI, bypassing redundant directory listings on every frame.
+
+---
+
 ## [1.2.0.6] - 2026-06-09
 
 ### Fixed
