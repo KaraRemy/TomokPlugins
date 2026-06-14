@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.0.0] - 2026-06-14
+
+### Added
+- **Glamourer Preview Gallery**: A visual browser window (`/gpmgallery` or `/glampreviewgallery`) displaying Glamourer designs in a collapsible category grid. Double-click a card to instantly apply the design.
+- **Gallery Image Fit Modes**: Added a toggle option to fit full images inside the card without cropping (Contain) or scale them to fill the card bounds (Cover).
+- **Middle-Click Zoom**: Support for holding the middle mouse button on gallery cards to display a full-screen zoomed preview overlay (hiding tooltips during active zoom).
+- **Feature Promo Popup**: A one-time onboarding popup window introducing users to the new gallery on startup.
+
+### Changed
+- **Tabbed Settings Restructuring**: Organized settings options into distinct tabs (*Previews & Storage*, *Display & UI*, *Screenshot Capture*, and *Information*) for a much cleaner layout.
+- **Decoupled Aspect Ratios**: Separated the Gallery card aspect ratio configuration from the screenshot crop overlay ratio, preventing crop setting changes from affecting existing gallery layouts.
+- **External Screenshot Watcher Optimization**: Rewrote the directory file watcher to lazily run only when actively in GPM screenshot capture mode, completely avoiding background file system overhead. Added a toggle to automatically delete original screenshots after import.
+- **Text Wrapping in Tips**: Refactored the settings information tips to support automatic word-wrapping.
+
+---
+
 ## [1.0.1.1] - 2026-06-12
 
 ### Changed
