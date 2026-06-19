@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0.8] - 2026-06-19
+
+### Added
+- **Opt-In Preview Hiding in Penumbra**: Added a setting checkbox `"Hide option previews from Penumbra File Redirections"` under "Integration Options" to programmatically mark option preview images and folders with the system `Hidden` attribute. This recursively hides option previews from Penumbra's "File Redirections" tab to prevent UI clutter while maintaining full portability.
+- **Dynamic Hiding/Unhiding Sweeps**: Enabling the setting hides existing option preview directories and files; disabling it removes the `Hidden` attribute to restore standard visibility. Includes helper tooltips clarifying the Windows Explorer behavior.
+
+---
+
 ## [1.2.0.7] - 2026-06-12
 
 ### Changed
