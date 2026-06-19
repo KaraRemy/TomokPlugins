@@ -1,38 +1,38 @@
 [
   {
-    "Author": "Tomok2404",
+    "Author": "Tomok",
     "Name": "ToDHelper",
     "InternalName": "ToDHelperPlugin",
     "AssemblyVersion": "0.0.0.4",
     "Description": "Helps you manage and host Truth or Dare games.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Tomok2404/TomokPlugins",
+    "RepoUrl": "https://github.com/KaraRemy/TomokPlugins",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/latest.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/ToDHelperPlugin/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/ToDHelperPlugin/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/ToDHelperPlugin/latest.zip",
     "Punchline": "Truth or Dare Helper for FFXIV.",
     "Tags": [
       "tod",
       "minigame",
       "social"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/ToDHelperPlugin/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/ToDHelperPlugin/icon.png"
   },
   {
-    "Author": "Tomok2404",
+    "Author": "Tomok",
     "Name": "Penumbra Preview Manager",
     "InternalName": "PenumbraPreviewManager",
     "AssemblyVersion": "1.2.0.8",
     "Description": "A helper tool to easily attach local, XIVModArchive, or direct URL preview/cover images to your Penumbra mods. Also supports local tags to easily filter mods that have preview/cover images inside Penumbra.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Tomok2404/PenumbraPreviewManager",
+    "RepoUrl": "https://github.com/KaraRemy/PenumbraPreviewManager",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PenumbraPreviewManager/latest.zip",
     "Punchline": "Manage and grab preview/cover images for local Penumbra mods.",
     "Tags": [
       "penumbra",
@@ -41,21 +41,21 @@
       "manager",
       "xivmodarchive"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/PenumbraPreviewManager/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PenumbraPreviewManager/icon.png"
   },
   {
-    "Author": "Tomok2404",
+    "Author": "Tomok",
     "Name": "Glamourer Preview Manager",
     "InternalName": "GlamourerPreviewManager",
     "AssemblyVersion": "1.1.0.0",
     "Description": "A helper tool to easily attach local, XIVModArchive, direct URL preview/cover images, or take cropped screenshots of your characters to attach to your Glamourer designs.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Tomok2404/GlamourerPreviewManager",
+    "RepoUrl": "https://github.com/KaraRemy/GlamourerPreviewManager",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/GlamourerPreviewManager/latest.zip",
     "Punchline": "Manage and grab preview/cover images for local Glamourer designs.",
     "Tags": [
       "glamourer",
@@ -64,21 +64,21 @@
       "manager",
       "design"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/GlamourerPreviewManager/icon.png"
+    "IconUrl": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/GlamourerPreviewManager/icon.png"
   },
   {
-    "Author": "Tomok2404",
+    "Author": "Tomok",
     "Name": "FF Feud",
     "InternalName": "FFFeudPlugin",
     "AssemblyVersion": "0.0.0.2",
     "Description": "Allows hosting custom Family Feud games with point tracking and chat output.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Tomok2404/TomokPlugins",
+    "RepoUrl": "https://github.com/KaraRemy/TomokPlugins",
     "DalamudApiLevel": 15,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/FFFeudPlugin/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/FFFeudPlugin/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tomok2404/TomokPlugins/main/FFFeudPlugin/latest.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/FFFeudPlugin/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/FFFeudPlugin/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/FFFeudPlugin/latest.zip",
     "Punchline": "Family Feud host helper for FFXIV.",
     "Tags": [
       "minigame",
