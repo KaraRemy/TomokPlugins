@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0.1] - 2026-06-27
+
+### Added
+- **Support & Community Links**: Added an in-game "Support on Ko-fi" button directly inside the settings Information tab alongside the Support Discord button.
+
 ---
 
 ## [1.1.0.0] - 2026-06-14

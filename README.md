@@ -11,3 +11,11 @@ This repository contains [PenumbraPreviewManager](https://github.com/KaraRemy/Pe
    `https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/pluginmaster.json`
 4. Click the `+` button and save.
 5. Search for the plugins in the Plugin Installer (`/xlplugins`).
+
+---
+
+## Support & Community
+
+- 📢 **[Join the Support Discord](https://discord.gg/PvxW4mXaWp)**
+- ☕ **[Support on Ko-fi](https://ko-fi.com/kararemy)**
+
