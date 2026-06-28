@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1.0] - 2026-06-28
+
+### Added
+- **Middle-Click Preview Zoom Slider**: Added a custom slider under `/ppm settings` allowing users to scale middle-click full-screen zoom overlays from 10% up to 300%.
+- **Slash Command Subcommands**: Added `/ppm settings` and `/ppm config` to instantly open the configuration window.
+- **Dedicated Documentation & Quick Start**: Added comprehensive `GETTING_STARTED.md` and `FAQ.md` guides to the repository detailing all configuration options and workflows.
+
+### Fixed
+- **Multi-Group Option Disambiguation**: Fixed a bug where option names shared across different groups (e.g. `Skirt Textures: Plain` vs `Slide Textures: Plain`) caused image preview collisions in Penumbra. Option resolution now cleanly uses sibling-context matching aligned with Penumbra's rendering pipeline.
+- **Static Non-Option Group Filtering**: Automatically hidden static required groups (`Required`, `Required Again`, `Models`) from PPM selectors, matching Penumbra's internal `IsOption` rules for single-option containers.
+
+### Changed
+- **Updated Default Configurations**: Updated default settings to `No Crop` for both main and option previews, `Eye / View` icon style, and enabled `Search XMA` and `Hide Mod List` by default.
+
+---
+
 ## [1.2.0.9] - 2026-06-27
 
 ### Added
