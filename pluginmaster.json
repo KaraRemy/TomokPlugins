@@ -111,5 +111,30 @@
       "preview"
     ],
     "IconUrl": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PoseManager/icon.png"
+  },
+  {
+    "Author": "Tomok",
+    "Name": "Stingy Shopper",
+    "InternalName": "StingyShopper",
+    "AssemblyVersion": "0.0.0.0",
+    "Description": "Helps you organize shopping lists by fetching live prices from Universalis, grouping items by cheapest server based on customizable stinginess profiles, navigating via Lifestream IPC, and tracking purchases.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/winstonkoh87/StingyShopper",
+    "DalamudApiLevel": 15,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/StingyShopper/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/StingyShopper/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/StingyShopper/latest.zip",
+    "Punchline": "Optimize multi-item marketboard shopping with Universalis pricing and Lifestream navigation.",
+    "Tags": [
+      "marketboard",
+      "shopping",
+      "universalis",
+      "lifestream",
+      "crafting"
+    ],
+    "IsTestingExclusive": true,
+    "TestingAssemblyVersion": "1.0.0.0",
+    "TestingDalamudApiLevel": 15
   }
 ]
