@@ -90,7 +90,7 @@
     "Author": "Tomok",
     "Name": "Pose Manager",
     "InternalName": "PoseManager",
-    "AssemblyVersion": "0.1.0.0",
+    "AssemblyVersion": "0.1.0.1",
     "TestingAssemblyVersion": "0.1.0.0",
     "Description": "A manager solution for organizing pose presets inside FFXIV, with an interactive 3D skeleton mannequin and full-screen preview viewer.",
     "ApplicableVersion": "any",
@@ -101,7 +101,6 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PoseManager/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PoseManager/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/KaraRemy/TomokPlugins/main/PoseManager/latest.zip",
-    "IsTestingExclusive": true,
     "Punchline": "Organize, browse, and preview pose presets.",
     "Tags": [
       "gpose",
