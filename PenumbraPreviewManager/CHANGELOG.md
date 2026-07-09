@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1.3] - 2026-07-09
+
+### Added
+- **Option Label Zoom**: Extended middle-click zoom behavior to option text labels when the "Extend option hover previews to label text" configuration is enabled.
+
+---
+
 ## [1.2.1.1] - 2026-07-09
 
 ### Added
