@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1.1] - 2026-07-09
+
+### Added
+- **External Preview Integration**: Added support for importing externally hosted pre-compiled option preview archives for select popular mods.
+- **Safety Gate**: Added age gate and bandwidth validation confirmation prompts before initiating external pack downloads.
+
+---
+
 ## [1.2.1.0] - 2026-06-28
 
 ### Added
