@@ -3,7 +3,7 @@
     "Author": "Tomok",
     "Name": "ToDHelper",
     "InternalName": "ToDHelperPlugin",
-    "AssemblyVersion": "0.0.0.11",
+    "AssemblyVersion": "0.0.1.0",
     "Description": "Helps you manage and host Truth or Dare games.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/KaraRemy/TomokPlugins",
@@ -132,8 +132,8 @@
       "lifestream",
       "crafting"
     ],
-    "IsTestingExclusive": true,
-    "TestingAssemblyVersion": "1.0.0.0",
-    "TestingDalamudApiLevel": 15
+    "TestingAssemblyVersion": "1.0.1.0",
+    "TestingDalamudApiLevel": 15,
+    "IsTestingExclusive": true
   }
 ]

@@ -4,6 +4,20 @@ All notable changes to the **Stingy Shopper** plugin will be documented in this 
 
 ---
 
+## [1.0.1.0] - 2026-07-23
+
+### Added
+- **Gil Limit Filter**: Added a dynamic `maxGilLimit` filter input field in `MainWindow.cs` to filter lists, hide server categories with no matching items, and dynamically recalculate estimated costs and traveled server counts.
+- **World Prioritization**: Added dynamic world lookup (`LocalPlayer?.CurrentWorld`) inside `RegisterPurchase` in `ShoppingListManager.cs`. This prioritizes deducting purchased item quantities from the world the player is currently on.
+- **Auto-Sorting**: Implemented dynamic LINQ sorting so that the player's current world is always displayed at the top of the plan UI.
+- **Auto-Remove Completed Items**: Added an `AutoRemovePurchasedItems` checkbox in the settings panel to automatically delete items from the active list once they are fully bought (`remaining < 1`).
+- **Universalis API Resilience**: Added progressive retries (up to 3 attempts with 2s and 4s delays) to `UniversalisClient.cs` to handle API timeouts, downgrading hard error logs to warnings and showing retry status in the UI bar.
+
+### Fixed
+- **Flag Propagation**: Fixed a bug in `ShoppingListManager` to correctly propagate `IsUntradable` and `IsUnlisted` flags to grouped item clones.
+
+---
+
 ## [1.0.0.0] - 2026-06-30
 
 ### Added
