@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1.0] - 2026-07-23
+
+### Fixed
+- **Missing Preview Image UI Recovery**: Added a fallback path if a design's preview image file goes missing or fails to load, preventing the UI from entering a button-less locked state. Users can now easily re-import, paste, or remove the preview mapping directly.
+- **Linux/Steam Deck & Sibling Path Resolution**: Resolved a permanent hang on "Loading design info..." in custom and Linux environments (Wine/Proton prefixes) by dynamically checking for Glamourer's designs folder relative to the active GPM configuration folder parent path.
+- **Debounced Logging**: Added defensive log warning limits to prevent frame-by-frame log spam on unresolved design lookups.
+
+---
+
 ## [1.1.0.1] - 2026-06-27
 
 ### Added
