@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1.5] - 2026-07-23
+
+### Fixed
+- **Linux/Steam Deck Sibling Path Resolution**: Resolved potential config fallback loading failures in Linux/Wine/Proton environments by dynamically checking for Penumbra's config relative to PPM's dynamic config folder path.
+
+---
+
 ## [1.2.1.4] - 2026-07-11
 
 ### Changed
