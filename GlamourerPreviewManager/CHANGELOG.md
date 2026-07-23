@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1.1] - 2026-07-23
+
+### Added
+- **Sub-Command Routing**: Added support for launching the preview gallery directly using the `/gpm gallery` (or `/glampreview gallery`) command arguments.
+
+---
+
 ## [1.1.1.0] - 2026-07-23
 
 ### Fixed
