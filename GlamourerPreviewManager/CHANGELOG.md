@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2.1] - 2026-07-31
+
+### Added
+- **Outfit Roulette Preview Toggle**: Added a toggle option to include outfits in the roulette pool even if they do not have a preview image attached (displays a fallback message in the UI).
+
+---
+
 ## [1.1.2.0] - 2026-07-31
 
 ### Added
