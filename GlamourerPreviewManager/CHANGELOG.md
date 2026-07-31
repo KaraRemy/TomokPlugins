@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2.0] - 2026-07-31
+
+### Added
+- **Outfit Roulette**: Added a new Outfit Roulette window (`/gpm roulette` / `/gpmroulette`) to randomly select and apply outfits from your active design pool. Features include:
+  - **Confirm Before Apply**: Toggle option to preview the selected design before equipping it.
+  - **Folder Filters**: Customize your active roulette pool by selecting/deselecting specific category folders.
+  - **Friend's Roll Support**: Input a raw number (e.g. from `/random`) to select a design via modulo division (`index = Roll % PoolCount`).
+- **Chat Roll Integration**: Added a history-button next to the Friend's Roll input field to instantly insert the last seen `/random` or `/dice` roll from chat. Supports English, German, and French clients with a high-performance string pre-filter to prevent frame-rate overhead.
+
+---
+
 ## [1.1.1.1] - 2026-07-23
 
 ### Added
