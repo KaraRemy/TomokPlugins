@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3.0] - 2026-08-13
+
+### Added
+- **Zero-Hook Glamourer Preview Window**: Added a dedicated Preview window (`/gpm preview` or `/gpmpreview`) that tracks Glamourer selection automatically via direct reflection. Displays design preview images, middle-click zoom, and one-click controls (**Paste Clipboard**, **Browse Image**, **Take Screenshot**, **Remove Preview**) with zero reliance on native `cimgui.dll` memory hooks.
+
+### Fixed
+- **Glamourer Refactor Compatibility**: Fixed design selection reflection to support Glamourer's `Luna.ServiceManager` architecture.
+- **MinHook Address Space Resilience**: Wrapped native ImGui function hooks in isolated exception handlers to prevent memory buffer allocation failures in crowded virtual memory environments.
+
+---
+
 ## [1.1.2.1] - 2026-07-31
 
 ### Added
