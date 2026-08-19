@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3.1] - 2026-08-20
+
+### Fixed
+- **Incognito Mode Design & Preview Resolution**: Added support for Glamourer's 8-character hex Incognito labels (`Identifier.ToString()[..8]`) and `struct DesignIdentifier` reflection parsing, ensuring preview images update immediately in Incognito Mode.
+- **Tab Isolation (Actors & NPCs Tab Protection)**: Restricted preview injection anchors strictly to `DesignPanel` controls (`Export to Dat`, `Apply Mod Associations`) and added active tab validation (`EphemeralConfig.SelectedMainTab == MainTabType.Designs`), preventing preview panels from bleeding into the Actors, NPCs, or Automation tabs.
+- **Asynchronous Texture Loading Flash**: Replaced instant error alerts during async disk loading with a smooth loading state (`"Loading preview image..."`), eliminating temporary red error flashes when clicking between designs.
+
 ## [1.1.3.0] - 2026-08-13
 
 ### Added
