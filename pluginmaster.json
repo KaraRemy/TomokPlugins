@@ -90,7 +90,7 @@
     "Author": "Tomok",
     "Name": "Pose Manager",
     "InternalName": "PoseManager",
-    "AssemblyVersion": "0.1.0.3",
+    "AssemblyVersion": "0.1.0.5",
     "TestingAssemblyVersion": "0.1.0.0",
     "Description": "A manager solution for organizing pose presets inside FFXIV, with an interactive 3D skeleton mannequin and full-screen preview viewer.",
     "ApplicableVersion": "any",
