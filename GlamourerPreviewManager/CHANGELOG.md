@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.4.2] - 2026-09-11
+
+### Fixed
+- **Glamourer 1.7 Compatibility**: Updated `DesignFileSystem` service resolution to support `Luna.ServiceManager`'s generic service retrieval API, resolving the "Could not resolve DesignFileSystem service from ServiceManager" failure.
+- **Cross-Assembly Node Resolution**: Updated reflection to read `Value` and `Identifier` through public interfaces (`Luna.IFileSystemData`, `Luna.IFileSystemValue`), preventing CLR `MethodAccessException` on internal types in Glamourer 1.7.
+- **Real-Time Active Selection Sync**: Updated reflection selection handling to immediately synchronize the active design ID upon selection change, preventing previews from getting stuck on a single design.
+- **Tab State Evaluation**: Updated designs tab detection to support both enum and integer values of Glamourer's `MainTabType.Designs`.
+- **On-Demand Design Retrieval**: Added immediate disk fallback for newly saved or unindexed design files when requested by ID.
+
 ## [1.1.4.1] - 2026-09-02
 
 ### Fixed
