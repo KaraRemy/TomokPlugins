@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.2.0] - 2026-09-12
+
+### Fixed
+- **Penumbra 1.7+ Relocated Config Path Discovery**: Added resolution for Penumbra 1.7's configuration directory structure (`Penumbra/config/penumbra.json`), alongside legacy root paths, resolving startup initialization failures when IPC is not yet established.
+- **Penumbra Lifecycle Synchronization**: Subscribed to `Penumbra.Initialized` and `Penumbra.Disposed` IPC events to eliminate startup race conditions and keep mod directory and draw state synchronized across reloads.
+- **On-Demand Single Mod Resolution**: Added fallback disk resolution (`GetOrResolveMod`) during `PreSettingsTabBarDraw` and `PreSettingsDraw`, resolving and indexing requested mods immediately if not already cached in memory.
+- **Dual-Engine Mod Option Discovery**: Added a local `meta.json` (v4 unified Groups format) parser fallback with `LastWriteTimeUtc` caching to `GetAvailableSettings`, ensuring option previews load even when IPC calls return null or fail.
+
+### Changed
+- **Incremental Event Synchronization**: Replaced full library disk scans on `ModAdded`, `ModDeleted`, and `ModMoved` events with incremental in-memory updates and debounced rescans, reducing disk I/O overhead.
+- **File I/O Throttling in Image Cache Busting**: Throttled filesystem timestamp checks in `GetBustedImagePath` to avoid per-frame disk syscalls during ImGui rendering.
+- **Cached Full Scans**: Implemented `LastWriteTimeUtc` timestamp checks on `meta.json` during full mod directory scans to avoid re-reading and re-parsing unchanged mods.
+
+---
+
 ## [1.2.1.5] - 2026-07-23
 
 ### Fixed
