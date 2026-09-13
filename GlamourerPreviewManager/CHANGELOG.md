@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.5.0] - 2026-09-13
+
+### Added
+- **Debug & Logging Settings Tab**: Added a dedicated configuration tab in Settings (`/gpm`) for diagnostic controls:
+  - Configurable minimum log level selector (Verbose, Debug, Information, Warning, Error, None).
+  - Toggle for active design selection change logging (`LogSelectionChanges`, default off).
+  - Reflection liveness status indicator and manual re-bind button.
+  - Quick open buttons for log and configuration directories.
+- **In-UI Diagnostic Badge**: Added an inline diagnostic status line below preview images when debug information is enabled, displaying the active resolution stage (`ReflectionSelection`, `FileSystemSelection`, `DesignPanelFallback`, `ButtonGuid`, `IncognitoHex`, `DesignName`) and reflection connection health.
+- **Dynamic Design Synthesis**: Added in-memory design registration (`RegisterSynthesizedDesign`) allowing newly created or selected designs to display previews immediately before background disk scanning completes.
+
+### Fixed
+- **Glamourer Reload / Update Reflection Re-Binding**: Added an active reflection liveness check (evaluated once per second during UI drawing) that automatically detects when Glamourer is reloaded, updated, or toggled in Dalamud and re-binds reflection services without requiring a GPM restart.
+- **Selection Change Log Loop**: Prevented internal GPM button interactions (`##GPM_` identifier labels) from triggering false-positive active design updates, and enforced stage authority checks in `SetActiveDesignId` to stop 60 FPS log spam when verbose logging is enabled.
+- **Selection Change Log Visibility**: Changed design selection log messages to information level (`LogInfo`) when `LogSelectionChanges` is enabled.
+
 ## [1.1.4.2] - 2026-09-11
 
 ### Fixed
