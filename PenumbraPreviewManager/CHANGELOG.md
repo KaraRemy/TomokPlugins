@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.2.1] - 2026-09-16
+
+### Changed
+- **Window Collapse Support**: Removed `ImGuiWindowFlags.NoCollapse` from the Settings window and switched `SizeCondition` from `Always` to `FirstUseEver` to enable native title bar collapse buttons without per-frame size overrides.
+
 ## [1.2.2.0] - 2026-09-12
 
 ### Fixed

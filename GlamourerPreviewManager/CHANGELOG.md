@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.5.1] - 2026-09-16
+
+### Changed
+- **Window Collapse Support**: Removed `ImGuiWindowFlags.NoCollapse` across all plugin windows (`ConfigWindow`, `GlamourerPreviewWindow`, `RediscoveryReviewWindow`, `RouletteWindow`, `GalleryWindow`, `GalleryPromoWindow`) to enable native title bar collapse buttons.
+
 ## [1.1.5.0] - 2026-09-13
 
 ### Added
